@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.Login {
+  text-align: right;
+  margin: 0.5%;
+  padding: 0.5%;
+}

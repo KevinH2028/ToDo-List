@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<link href="login_style.css" rel="stylesheet" type="text/css" />
+<link href="index_style.css" rel="stylesheet" type="text/css" />
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page</title>
+  </head>
+  <top class="top">
+    <header class="main-header">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lists.html">Lists</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </header>
+  </top>
+  <body>
+    <center><h1>Student Login Form</h1></center>
+    <form class="login-form">
+      <div class="container">
+        <label>Username : </label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          name="username"
+          required
+        />
+        <label>Password : </label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          required
+        />
+        <button type="submit">Login</button>
+        <input type="checkbox" checked="checked" /> Remember me
+        <button type="button" class="cancelbtn">Cancel</button>
+        Forgot <a href="#"> password? </a>
+      </div>
+    </form>
+  </body>
+</html>
